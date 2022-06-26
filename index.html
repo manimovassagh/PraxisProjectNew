@@ -21,15 +21,12 @@
       </div>
       <div class="menuPart">
         <div class="menuBrownPart">
-          <div class="check">
-            <a href="" class="href starthref"> START </a>
-          </div>
-          <a href="#fachrichtung" class="href FACHRICHTUNGEN">
-            FACHRICHTUNGEN
-          </a>
-          <a href="" class="href KONTAKT"> KONTAKT </a>
-          <a href="" class="href ETAGENPLAN"> ETAGENPLAN </a>
-          <a href="" class="href impressum"> IMPRESSUM </a>
+          <a class="href starthref"> START </a>
+
+          <a class="href FACHRICHTUNGEN"> FACHRICHTUNGEN </a>
+          <a class="href KONTAKT"> KONTAKT </a>
+          <a id="etageLink" class="href ETAGENPLAN"> ETAGENPLAN </a>
+          <a class="href impressum"> IMPRESSUM </a>
         </div>
         <div class="menuBluePart"></div>
       </div>
@@ -57,7 +54,7 @@
     <div class="leftPart thirdPart">
       <div class="end1"></div>
       <div class="end2"></div>
-      <div class="fachrichtung">FACHRICHTUNGEN</div>
+      <div id="fachrichtungTeil" class="fachrichtung">FACHRICHTUNGEN</div>
     </div>
     <!-- Here is Place for Middle images in page -->
     <div class="containerForMiddleImages">
@@ -278,7 +275,11 @@
         <div class="imageContainer2 flip-card-right">
           <div class="flip-card-inner-right">
             <div class="flip-card-front-right">
-              <img src="Asset/Apothekerin.png" alt="frauenarzt" class="img img1" />
+              <img
+                src="Asset/Apothekerin.png"
+                alt="frauenarzt"
+                class="img img1"
+              />
               <div class="imageText flip-card-front-right">
                 <p class="imageTextTitle">Annette Wilhelm-Meissner</p>
                 <p class="imageTextDescription">Apothekerin</p>
@@ -287,13 +288,16 @@
 
             <div class="flip-card-back-right">
               <div class="card-back-text-right">
-                <div class="text__card1_first-right">Annette Wilhelm-Meissner</div>
+                <div class="text__card1_first-right">
+                  Annette Wilhelm-Meissner
+                </div>
                 <div class="text__card1_second-right">Apothekerin</div>
                 <div class="text__card1_third-right">
                   Tel.: 089/225225-70 <br />
                   Fax: 089/225225-77 <br />
                   apotheke@aerztehaus-am-hirschgarten.de <br />
-                  Allgemeinpharmazie, Beratung und Information, <br> Pflege und Kosmetik, Giftnotruf
+                  Allgemeinpharmazie, Beratung und Information, <br />
+                  Pflege und Kosmetik, Giftnotruf
                 </div>
 
                 <button class="button-3" role="button">Mehr über mich</button>
@@ -306,7 +310,7 @@
       <!-- End Last Image container -->
     </div>
     <!-- Start Of Contact Section -->
-    <div class="contactFotoContainer">
+    <div id="kontaktSection" class="contactFotoContainer">
       <img class="contactFoto" src="Asset/kontakt.png" alt="" />
       <div class="contactFotoTextsContainer">
         <div class="contactFotoTitle">Ärztehaus am Hirschgarten</div>
@@ -348,7 +352,7 @@
     <div class="leftPart thirdPart flexReverse flexReverseContainer">
       <div class="end2"></div>
       <div class="end1"></div>
-      <div class="fachrichtung etagePlan">ETAGENPLAN</div>
+      <div id="etageplan" class="fachrichtung etagePlan">ETAGENPLAN</div>
     </div>
     <!-- ETAGENPLAN -->
 

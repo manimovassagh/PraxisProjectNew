@@ -742,3 +742,12 @@ padding-top: 340px;
   position: relative;
   max-width: 500px;
 }
+.imageText {
+  position: relative;
+  top: -133px;
+  left: 42px;
+  font-family: bebasneue;
+  font-size: 67px;
+  color: rgb(255, 255, 255);
+}
+

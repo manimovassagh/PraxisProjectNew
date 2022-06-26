@@ -22,46 +22,41 @@ addEventToObject(animeImage2);
 addEventToObject(animeImage3);
 addEventToObject(animeImage4);
 
-// Make page to scroll smooth to Soecific Part
+// Make page to scroll smooth to Specific Part
 
 // Part Fachrichtung
 const fachrichtungTeil = document.querySelector("#fachrichtungTeil");
-
 function gotToSection() {
   fachrichtungTeil.scrollIntoView({ behavior: "smooth" });
 }
 const fachRichtungButton = document.querySelector(".FACHRICHTUNGEN");
-
 fachRichtungButton.addEventListener("click", gotToSection);
 
 // Part Kontakt
-
-
-const contactTeil=document.querySelector('#kontaktSection')
+const contactTeil = document.querySelector("#kontaktSection");
 
 function gotToKontakt() {
   contactTeil.scrollIntoView({ behavior: "smooth" });
 }
-const kontaktButton=document.querySelector("body > div.container > div.menuPart > div.menuBrownPart > a.href.KONTAKT");
-
-kontaktButton.addEventListener("click",gotToKontakt)
+const kontaktButton = document.querySelector(
+  "body > div.container > div.menuPart > div.menuBrownPart > a.href.KONTAKT"
+);
+kontaktButton.addEventListener("click", gotToKontakt);
 
 // Part EtagePlan
-const etageteil = document.querySelector('#etageplan')
 
+const etageteil = document.querySelector("#etageplan");
 function gotToEtagePlan() {
   etageteil.scrollIntoView({ behavior: "smooth" });
 }
 const etageButton = document.querySelector("#etageLink");
-
-etageButton.addEventListener("click",gotToEtagePlan)
+etageButton.addEventListener("click", gotToEtagePlan);
 
 // Part Impressum
-const impressum = document.querySelector('#go-to-impressum')
 
+const impressum = document.querySelector("#go-to-impressum");
 function gotToImpressum() {
   etageteil.scrollIntoView({ behavior: "smooth" });
 }
 const impressumButton = document.querySelector("#impressum");
-
-impressumButton.addEventListener("click",gotToEtagePlan)
+impressumButton.addEventListener("click", gotToEtagePlan);

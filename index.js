@@ -55,3 +55,13 @@ function gotToEtagePlan() {
 const etageButton = document.querySelector("#etageLink");
 
 etageButton.addEventListener("click",gotToEtagePlan)
+
+// Part Impressum
+const impressum = document.querySelector('#go-to-impressum')
+
+function gotToImpressum() {
+  etageteil.scrollIntoView({ behavior: "smooth" });
+}
+const impressumButton = document.querySelector("#impressum");
+
+impressumButton.addEventListener("click",gotToEtagePlan)

@@ -1,0 +1,644 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* End Of Reset */
+
+/* Font Family */
+
+@font-face {
+  font-family: bebasneue;
+  src: url(fonts/BebasNeue-Regular.ttf);
+}
+@font-face {
+  font-family: dexMedium;
+  src: url(fonts/Dax\ Medium.ttf);
+}
+@font-face {
+  font-family: dexRegular;
+  src: url(fonts/Dax\ Regular.ttf);
+}
+/* End of Font Family */
+
+.container {
+  display: flex;
+  position: relative;
+  min-height: 162.5px;
+  align-items: center;
+  justify-content: start;
+  margin-right: 0px;
+  width: 1920px;
+}
+.logo {
+  width: 207px;
+  height: 278px;
+  margin-top: 55px;
+  margin-left: 36px;
+  margin-right: 36px;
+}
+
+.menuPart {
+  justify-content: end;
+  margin-bottom: 3px;
+}
+.leftPart {
+  display: flex;
+}
+.end1 {
+  min-width: 37px;
+  min-height: 48px;
+  background-color: #7bcadb;
+}
+.end2 {
+  min-width: 65px;
+  min-height: 48px;
+  background-color: #7c6e66;
+}
+.menuPart {
+  display: flex;
+  margin-left: 36px;
+  min-width: 1500px;
+  background-color: #7c6e66;
+  margin-right: 0px;
+}
+.menuBrownPart {
+  min-width: 1399px;
+  min-height: 48px;
+  background-color: #7c6e66;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.menuBluePart {
+  min-width: 140px;
+  min-height: 48px;
+  background-color: #7bcadb;
+  min-width: 140px;
+}
+a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: white;
+  font-family: bebasneue;
+  font-size: 27px;
+  letter-spacing: 2px;
+}
+.impressum {
+  margin-right: 330px;
+}
+a:hover {
+  background-color: #7bcadb;
+}
+
+/* Middle Part CSS  */
+.firstHeaderText {
+  font-family: bebasneue;
+  color: #7bcadb;
+  font-size: 127px;
+}
+.secondHeaderText {
+  font-family: bebasneue;
+  color: #7bcadb;
+  font-size: 67px;
+  margin-top: 20px;
+}
+
+.firstmainText {
+  font-family: dexRegular;
+  font-size: 40px;
+  color: #7c6e66;
+  line-height: 1.1;
+}
+.secondmainText {
+  font-family: dexRegular;
+  font-size: 40px;
+  color: #7c6e66;
+  margin-top: 20px;
+  line-height: 1.1;
+}
+
+.textMiddle {
+  position: absolute;
+  top: 410px;
+  left: 130px;
+}
+
+.imageMiddle {
+  padding-top: 30px;
+}
+.thirdPart {
+  margin-top: 140px;
+  display: flex;
+  align-items: center;
+  font-family: bebasneue;
+  font-size: 62px;
+  color: #7c6e66;
+  letter-spacing: 2px;
+}
+.fachrichtung {
+  margin-left: 22px;
+}
+
+.imgFlex {
+  display: flex;
+}
+
+.firstLineImageGroup {
+  size: 30px;
+  justify-content: start;
+  margin-right: 110px;
+  margin-left: 117px;
+  padding-top: 100px;
+}
+
+.img {
+  object-fit: contain;
+  height: 626px;
+}
+.img2 {
+  padding-top: 130px;
+}
+.imageText {
+  position: relative;
+  top: -133px;
+  left: 80px;
+  font-family: bebasneue;
+  font-size: 67px;
+  color: rgb(255, 255, 255);
+}
+.imageTextTitle {
+  font-family: bebasneue;
+  font-size: 67px;
+  color: rgb(255, 255, 255);
+}
+.imageTextDescription {
+  font-family: dexMedium;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+.imageContainer2 {
+  margin-left: 110px;
+}
+.secondLineImage {
+  padding-top: 0px;
+}
+.img2 {
+  padding-top: -26px;
+}
+.secondLineImages {
+  margin-left: 0px;
+}
+.img3 {
+  margin-right: 119px;
+}
+.img4 {
+  padding-top: 130px;
+  z-index:  2;
+}
+
+.contactFotoContainer {
+ position: relative;
+}
+body > div.containerForMiddleImages > div:nth-child(4) > div > img{
+  z-index: 2;
+}
+.contactFoto {
+ max-width: 1920px;
+ position: absolute;
+ top: -300px;
+ z-index:-1;
+}
+/* must be edited */
+.contactFotoTextsContainer{
+  position: absolute;
+  top: 550px;
+  margin-left: 119px;
+}
+/* must be edited */
+
+.contactFotoTitle{
+  font-family: bebasneue;
+  font-size: 67px;
+  color: #7c6e66;
+  letter-spacing: 5px;
+}
+.contactFotoTextWhite{
+  font-family: dexRegular;
+  font-size: 43px;
+  color:white;
+  line-height: 1.2;
+}
+.contactFotoTextBrown{
+  font-family: dexMedium;
+  font-size: 40px;
+  color: #7c6e66;
+  line-height: 1.2;
+}
+.text2Contact{
+  margin-top: 2rem;
+}
+.text1Contact{
+  margin-top: 2rem;
+}
+.contactFotoTextBrown{
+  margin-top: 2rem;
+}
+.spacerForEndPage{
+  min-height: 1300px;
+}
+
+/* Set The Map  */
+.mapFoto{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-left: 110px;
+}
+.map{
+  margin-top: 175px;
+}
+
+/* End Of Map Set */
+.flexReverse{
+  flex-direction: row-reverse;
+}
+.mapThird{
+  margin-top: 4px;
+}
+.etagePlan{
+  margin-top: 4px;
+  margin-right: 2rem;
+}
+.flexReverseContainer{
+  max-width: 1920px;
+}
+.AnimePartContainer{
+  margin-top: 200px;
+  display: flex; 
+  flex-direction: column;
+  justify-content: end;
+}
+/* .animeImage{
+  display: flex;
+  justify-content: end;
+  max-width: 1920px;
+ 
+} */
+
+.layers .layer {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  background: transparent;
+  transition: all ease 1s;
+  position: relative;
+}
+
+.layers {
+    background: transparent;
+    display: inline-block;
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    transition: all 0.5s ease;
+    opacity: 1;
+}
+
+.AnimePartContainer{
+  max-width: 1920px;
+  position: relative;
+  display: flex;
+  justify-items: revert;
+  
+}
+.animeImage{
+  display: block;
+  max-width: 956px;
+  position: absolute;
+
+}
+.wrapper{
+  display: flex;
+  justify-content: end;
+  max-width: 1920px;
+  margin-right: 220px;
+  transform: translateY(162px);
+  
+}
+.animeImage1{
+  z-index: 4;
+  top: -170px;
+}
+.animeImage2{
+  top: -50px;
+  z-index: 3;
+}
+.animeImage3{
+  top: 60px;
+  z-index: 2;
+}
+.animeImage4{
+  top: 180px;
+  z-index: 1;
+}
+.footerContainer{
+  position: relative;
+  max-width: 1920px;
+  
+}
+.footerImage{
+
+  position: absolute;
+  top: 800px;
+  z-index: -8;
+}
+.footerTextTitle{
+  font-family: bebasneue;
+  font-size: 67px;
+  color: #7c6e66;
+}
+
+.footerText{
+  font-family: dexRegular;
+  font-size: 40px;
+  color: white;
+}
+.footerContainer{
+  position: relative;
+}
+.footerTextTitle {
+  position: absolute;
+  top: 920px;
+  left: 119px;
+}
+.footerText {
+  position: absolute;
+  top: 1300px;
+  left: 119px;
+  color:white;
+}
+.footerTextFirstBlock{
+  top: 1020px;
+  line-height: 47px;
+}
+.footerTextSecondBlock{
+  top: 1350px;
+  line-height: 47px;
+}
+
+
+/* Define Animatiob for Group Photos */
+.anime{
+  transform: translateY(-40px);
+  transition: transform 500ms ease-in-out 25ms;
+}
+.animeReset{
+  transform: translateY(0px);
+  transition: transform 500ms ease-in-out 25ms;
+}
+
+/* End Define Animatiob for Group Photos */
+
+/* Anime Crads */
+
+
+.flip-card-back {
+    transform: rotateY(180deg);
+   
+}
+
+.flip-card-front, .flip-card-back {
+  
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  height: 624px;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-inner {
+  
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+  height: 624px;
+  border-radius: 25px;
+}  
+/* End of Anime Cards */
+
+
+
+/* CSS Button  */
+.button-3 {
+  appearance: none;
+  background-color:#7c6e66;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color:#7c6e66;
+}
+
+.button-3:focus {
+  box-shadow: rgba(124, 110, 102, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #7c6e66;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: #7c6e66;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+.text__card1_first{
+  font-family: bebasneue;
+  font-size: 67px;
+  color: #7bcadb;
+}
+
+.text__card1_second{
+  font-family: dexMedium;
+  font-size: 40px;
+  color: #7bcadb;
+}
+.text__card1_third{
+  font-family: dexRegular;
+  font-size: 40px;
+  color: #7c6e66;
+  line-height: 1.1;
+  padding-top: 20px;
+
+}
+.flip-card-back{
+  position: relative;
+}
+.card-back-text{
+  position: absolute;
+  top: -520px;
+  left: 60px;
+}
+.button-3{
+  margin-top: 40px;
+  transform: scale(1.5);
+  margin-left: 37px;
+}
+
+body > div.containerForMiddleImages > div:nth-child(1) > div.imageContainer1.flip-card > div > div.flip-card-front > div{
+  max-height: 100px;
+  max-width: 600px;
+}

@@ -750,4 +750,6 @@ padding-top: 340px;
   font-size: 67px;
   color: rgb(255, 255, 255);
 }
-
+#fachrichtungTeil{
+  transform: translateY(4px);
+}

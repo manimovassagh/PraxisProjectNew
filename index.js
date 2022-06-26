@@ -3,7 +3,7 @@ const animeImage2 = document.querySelector(".animeImage2");
 const animeImage3 = document.querySelector(".animeImage3");
 const animeImage4 = document.querySelector(".animeImage4");
 
-function addEventToObject(animeImageNumber) {
+const addEventToObject = (animeImageNumber) => {
   animeImageNumber.addEventListener("click", () => {
     if (!animeImageNumber.classList.contains("anime")) {
       animeImageNumber.classList.remove("animeReset");
@@ -15,7 +15,7 @@ function addEventToObject(animeImageNumber) {
       }
     }
   });
-}
+};
 
 addEventToObject(animeImage1);
 addEventToObject(animeImage2);
@@ -24,39 +24,34 @@ addEventToObject(animeImage4);
 
 // Make page to scroll smooth to Specific Part
 
-// Part Fachrichtung
 const fachrichtungTeil = document.querySelector("#fachrichtungTeil");
-function gotToSection() {
-  fachrichtungTeil.scrollIntoView({ behavior: "smooth" });
-}
-const fachRichtungButton = document.querySelector(".FACHRICHTUNGEN");
-fachRichtungButton.addEventListener("click", gotToSection);
-
-// Part Kontakt
 const contactTeil = document.querySelector("#kontaktSection");
-
-function gotToKontakt() {
-  contactTeil.scrollIntoView({ behavior: "smooth" });
-}
-const kontaktButton = document.querySelector(
-  "body > div.container > div.menuPart > div.menuBrownPart > a.href.KONTAKT"
-);
-kontaktButton.addEventListener("click", gotToKontakt);
-
-// Part EtagePlan
-
 const etageteil = document.querySelector("#etageplan");
-function gotToEtagePlan() {
-  etageteil.scrollIntoView({ behavior: "smooth" });
-}
-const etageButton = document.querySelector("#etageLink");
-etageButton.addEventListener("click", gotToEtagePlan);
-
-// Part Impressum
-
 const impressum = document.querySelector("#go-to-impressum");
-function gotToImpressum() {
-  etageteil.scrollIntoView({ behavior: "smooth" });
-}
+const fachRichtungButton = document.querySelector(".FACHRICHTUNGEN");
+const kontaktButton = document.querySelector("#kontakt-link");
+const etageButton = document.querySelector("#etageLink");
 const impressumButton = document.querySelector("#impressum");
+
+
+const gotToSection = () => {
+  fachrichtungTeil.scrollIntoView({ behavior: "smooth" });
+};
+
+const gotToKontakt = () => {
+  contactTeil.scrollIntoView({ behavior: "smooth" });
+};
+
+const gotToEtagePlan = () => {
+  etageteil.scrollIntoView({ behavior: "smooth" });
+};
+
+const gotToImpressum = () => {
+  etageteil.scrollIntoView({ behavior: "smooth" });
+};
+
+
+fachRichtungButton.addEventListener("click", gotToSection);
+kontaktButton.addEventListener("click", gotToKontakt);
+etageButton.addEventListener("click", gotToEtagePlan);
 impressumButton.addEventListener("click", gotToEtagePlan);

@@ -47,11 +47,11 @@ const gotToEtagePlan = () => {
 };
 
 const gotToImpressum = () => {
-  etageteil.scrollIntoView({ behavior: "smooth" });
+  impressum.scrollIntoView({ behavior: "smooth" });
 };
 
 
 fachRichtungButton.addEventListener("click", gotToSection);
 kontaktButton.addEventListener("click", gotToKontakt);
 etageButton.addEventListener("click", gotToEtagePlan);
-impressumButton.addEventListener("click", gotToEtagePlan);
+impressumButton.addEventListener("click", gotToImpressum);

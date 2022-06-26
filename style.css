@@ -606,7 +606,7 @@ body > div.containerForMiddleImages > div:nth-child(4) > div > img{
   box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
 .text__card1_first{
-  font-family: bebasneue;
+  font-family: dexMedium;
   font-size: 67px;
   color: #7bcadb;
 }
@@ -618,7 +618,7 @@ body > div.containerForMiddleImages > div:nth-child(4) > div > img{
 }
 .text__card1_third{
   font-family: dexRegular;
-  font-size: 40px;
+  font-size: 30px;
   color: #7c6e66;
   line-height: 1.1;
   padding-top: 20px;
@@ -636,9 +636,118 @@ body > div.containerForMiddleImages > div:nth-child(4) > div > img{
   margin-top: 40px;
   transform: scale(1.5);
   margin-left: 37px;
+  font-family: dexRegular;
+  letter-spacing: 1px;
+  
 }
 
 body > div.containerForMiddleImages > div:nth-child(1) > div.imageContainer1.flip-card > div > div.flip-card-front > div{
   max-height: 100px;
   max-width: 600px;
 }
+
+
+/* Anime Right */
+.flip-card-back-right {
+    transform: rotateY(180deg);
+   
+}
+
+.flip-card-front-right, .flip-card-back-right {
+  
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  height: 624px;
+}
+.flip-card-right:hover .flip-card-inner-right {
+  transform: rotateY(180deg);
+}
+.flip-card-inner-right {
+  
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+  height: 624px;
+  border-radius: 25px;
+}  
+
+
+/* Anime Right */
+
+.imageContainer2{
+  margin-top: 130px;
+ 
+  
+}
+body > div.containerForMiddleImages > div:nth-child(1) > div.imageContainer2.flip-card-right > div > div.flip-card-front-right > img{
+  max-width: 690px;
+  max-height: 686px;
+  
+}
+body > div.containerForMiddleImages > div:nth-child(1) > div.imageContainer2.flip-card-right{
+  max-width: 690px;
+  max-height: 686px;
+ 
+}
+.card-back-text-right{
+  position: absolute;
+  top: -520px;
+  padding-left: 40px;
+ 
+}
+.text__card1_first-right{
+  font-family: bebasneue;
+  font-size: 67px;
+  color: #7bcadb;
+}
+
+.text__card1_second-right{
+  font-family: dexMedium;
+  font-size: 40px;
+  color: #7bcadb;
+}
+.text__card1_third-right{
+  font-family: dexRegular;
+  font-size: 30px;
+  color: #7c6e66;
+  line-height: 1.1;
+  padding-top: 20px;
+
+}
+.containerForMiddleImagesTypeB{
+  max-width: 1920px;
+  display: flex;
+  position: relative;
+}
+.imageContainer-b-left{
+  margin-left: 110px;
+  margin-top: 208px;
+}
+.imageContainer-b-right{
+margin-left: 120px;
+padding-top: 340px;
+}
+.b-group-text{
+  font-family: bebasneue;
+}
+.third-line-image-container{
+  display: flex;
+  max-width: 1920px;
+  position: relative;
+  margin-left: 110px;
+  margin-top: 208px;
+}
+.last-image-container{
+  display: flex;
+  position: relative;
+  max-width: 500px;
+}
+.imageText {
+  position: relative;
+  top: -133px;
+  left: 42px;
+  font-family: bebasneue;
+  font-size: 67px;
+  color: rgb(255, 255, 255);
+}
+

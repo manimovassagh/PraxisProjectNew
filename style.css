@@ -319,88 +319,88 @@ a:hover {
 }
 .img4 {
   padding-top: 130px;
-  z-index:  2;
+  z-index: 2;
 }
 
 .contactFotoContainer {
- position: relative;
+  position: relative;
 }
-body > div.containerForMiddleImages > div:nth-child(4) > div > img{
+body > div.containerForMiddleImages > div:nth-child(4) > div > img {
   z-index: 2;
 }
 .contactFoto {
- max-width: 1920px;
- position: absolute;
- top: -300px;
- z-index:-1;
+  max-width: 1920px;
+  position: absolute;
+  top: -300px;
+  z-index: -1;
 }
 /* must be edited */
-.contactFotoTextsContainer{
+.contactFotoTextsContainer {
   position: absolute;
   top: 550px;
   margin-left: 119px;
 }
 /* must be edited */
 
-.contactFotoTitle{
+.contactFotoTitle {
   font-family: bebasneue;
   font-size: 67px;
   color: #7c6e66;
   letter-spacing: 5px;
 }
-.contactFotoTextWhite{
+.contactFotoTextWhite {
   font-family: dexRegular;
   font-size: 43px;
-  color:white;
+  color: white;
   line-height: 1.2;
 }
-.contactFotoTextBrown{
+.contactFotoTextBrown {
   font-family: dexMedium;
   font-size: 40px;
   color: #7c6e66;
   line-height: 1.2;
 }
-.text2Contact{
+.text2Contact {
   margin-top: 2rem;
 }
-.text1Contact{
+.text1Contact {
   margin-top: 2rem;
 }
-.contactFotoTextBrown{
+.contactFotoTextBrown {
   margin-top: 2rem;
 }
-.spacerForEndPage{
+.spacerForEndPage {
   min-height: 1300px;
 }
 
 /* Set The Map  */
-.mapFoto{
+.mapFoto {
   display: flex;
   align-items: center;
   justify-content: left;
   margin-left: 110px;
 }
-.map{
+.map {
   margin-top: 175px;
 }
 
 /* End Of Map Set */
-.flexReverse{
+.flexReverse {
   flex-direction: row-reverse;
 }
-.mapThird{
+.mapThird {
   margin-top: 4px;
 }
-.etagePlan{
+.etagePlan {
   margin-top: 4px;
   margin-right: 2rem;
 }
-.flexReverseContainer{
+.flexReverseContainer {
   max-width: 1920px;
 }
-.AnimePartContainer{
+.AnimePartContainer {
   margin-top: 200px;
-  display: flex; 
+  display: flex;
   flex-direction: column;
   justify-content: end;
 }
@@ -421,75 +421,70 @@ body > div.containerForMiddleImages > div:nth-child(4) > div > img{
 }
 
 .layers {
-    background: transparent;
-    display: inline-block;
-    width: 100%;
-    padding-top: 200px;
-    padding-bottom: 100px;
-    transition: all 0.5s ease;
-    opacity: 1;
+  background: transparent;
+  display: inline-block;
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  transition: all 0.5s ease;
+  opacity: 1;
 }
 
-.AnimePartContainer{
+.AnimePartContainer {
   max-width: 1920px;
   position: relative;
   display: flex;
   justify-items: revert;
-  
 }
-.animeImage{
+.animeImage {
   display: block;
   max-width: 956px;
   position: absolute;
-
 }
-.wrapper{
+.wrapper {
   display: flex;
   justify-content: end;
   max-width: 1920px;
   margin-right: 220px;
   transform: translateY(162px);
-  
 }
-.animeImage1{
+.animeImage1 {
   z-index: 4;
   top: -170px;
 }
-.animeImage2{
+.animeImage2 {
   top: -50px;
   z-index: 3;
 }
-.animeImage3{
+.animeImage3 {
   top: 60px;
   z-index: 2;
 }
-.animeImage4{
+.animeImage4 {
   top: 180px;
   z-index: 1;
 }
-.footerContainer{
+.footerContainer {
   position: relative;
   max-width: 1920px;
-  
 }
-.footerImage{
-
+.footerImage {
   position: absolute;
   top: 800px;
   z-index: -8;
 }
-.footerTextTitle{
+.footerTextTitle {
   font-family: bebasneue;
   font-size: 67px;
   color: #7c6e66;
 }
 
-.footerText{
+.footerText {
   font-family: dexRegular;
   font-size: 40px;
   color: white;
 }
-.footerContainer{
+.footerContainer {
   position: relative;
 }
 .footerTextTitle {
@@ -501,24 +496,23 @@ body > div.containerForMiddleImages > div:nth-child(4) > div > img{
   position: absolute;
   top: 1300px;
   left: 119px;
-  color:white;
+  color: white;
 }
-.footerTextFirstBlock{
+.footerTextFirstBlock {
   top: 1020px;
   line-height: 47px;
 }
-.footerTextSecondBlock{
+.footerTextSecondBlock {
   top: 1350px;
   line-height: 47px;
 }
 
-
 /* Define Animatiob for Group Photos */
-.anime{
+.anime {
   transform: translateY(-40px);
   transition: transform 500ms ease-in-out 25ms;
 }
-.animeReset{
+.animeReset {
   transform: translateY(0px);
   transition: transform 500ms ease-in-out 25ms;
 }
@@ -527,14 +521,12 @@ body > div.containerForMiddleImages > div:nth-child(4) > div > img{
 
 /* Anime Crads */
 
-
 .flip-card-back {
-    transform: rotateY(180deg);
-   
+  transform: rotateY(180deg);
 }
 
-.flip-card-front, .flip-card-back {
-  
+.flip-card-front,
+.flip-card-back {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   height: 624px;
@@ -543,29 +535,27 @@ body > div.containerForMiddleImages > div:nth-child(4) > div > img{
   transform: rotateY(180deg);
 }
 .flip-card-inner {
-  
   transition: transform 0.6s;
   transform-style: preserve-3d;
-   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   height: 624px;
   border-radius: 25px;
-}  
+}
 /* End of Anime Cards */
-
-
 
 /* CSS Button  */
 .button-3 {
   appearance: none;
-  background-color:#7c6e66;
-  border: 1px solid rgba(27, 31, 35, .15);
+  background-color: #7c6e66;
+  border: 1px solid rgba(27, 31, 35, 0.15);
   border-radius: 6px;
-  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
@@ -586,75 +576,77 @@ body > div.containerForMiddleImages > div:nth-child(4) > div > img{
 }
 
 .button-3:hover {
-  background-color:#7c6e66;
+  background-color: #7c6e66;
 }
 
 .button-3:focus {
-  box-shadow: rgba(124, 110, 102, .4) 0 0 0 3px;
+  box-shadow: rgba(124, 110, 102, 0.4) 0 0 0 3px;
   outline: none;
 }
 
 .button-3:disabled {
   background-color: #7c6e66;
-  border-color: rgba(27, 31, 35, .1);
-  color: rgba(255, 255, 255, .8);
+  border-color: rgba(27, 31, 35, 0.1);
+  color: rgba(255, 255, 255, 0.8);
   cursor: default;
 }
 
 .button-3:active {
   background-color: #7c6e66;
-  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+  box-shadow: rgba(20, 70, 32, 0.2) 0 1px 0 inset;
 }
-.text__card1_first{
+.text__card1_first {
   font-family: dexMedium;
   font-size: 67px;
   color: #7bcadb;
 }
 
-.text__card1_second{
+.text__card1_second {
   font-family: dexMedium;
   font-size: 40px;
   color: #7bcadb;
 }
-.text__card1_third{
+.text__card1_third {
   font-family: dexRegular;
   font-size: 30px;
   color: #7c6e66;
   line-height: 1.1;
   padding-top: 20px;
-
 }
-.flip-card-back{
+.flip-card-back {
   position: relative;
 }
-.card-back-text{
+.card-back-text {
   position: absolute;
   top: -520px;
   left: 60px;
 }
-.button-3{
+.button-3 {
   margin-top: 40px;
   transform: scale(1.5);
   margin-left: 37px;
   font-family: dexRegular;
   letter-spacing: 1px;
-  
 }
 
-body > div.containerForMiddleImages > div:nth-child(1) > div.imageContainer1.flip-card > div > div.flip-card-front > div{
+body
+  > div.containerForMiddleImages
+  > div:nth-child(1)
+  > div.imageContainer1.flip-card
+  > div
+  > div.flip-card-front
+  > div {
   max-height: 100px;
   max-width: 600px;
 }
 
-
 /* Anime Right */
 .flip-card-back-right {
-    transform: rotateY(180deg);
-   
+  transform: rotateY(180deg);
 }
 
-.flip-card-front-right, .flip-card-back-right {
-  
+.flip-card-front-right,
+.flip-card-back-right {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   height: 624px;
@@ -663,81 +655,82 @@ body > div.containerForMiddleImages > div:nth-child(1) > div.imageContainer1.fli
   transform: rotateY(180deg);
 }
 .flip-card-inner-right {
-  
   transition: transform 0.6s;
   transform-style: preserve-3d;
-   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   height: 624px;
   border-radius: 25px;
-}  
-
+}
 
 /* Anime Right */
 
-.imageContainer2{
+.imageContainer2 {
   margin-top: 130px;
- 
-  
 }
-body > div.containerForMiddleImages > div:nth-child(1) > div.imageContainer2.flip-card-right > div > div.flip-card-front-right > img{
+body
+  > div.containerForMiddleImages
+  > div:nth-child(1)
+  > div.imageContainer2.flip-card-right
+  > div
+  > div.flip-card-front-right
+  > img {
   max-width: 690px;
   max-height: 686px;
-  
 }
-body > div.containerForMiddleImages > div:nth-child(1) > div.imageContainer2.flip-card-right{
+body
+  > div.containerForMiddleImages
+  > div:nth-child(1)
+  > div.imageContainer2.flip-card-right {
   max-width: 690px;
   max-height: 686px;
- 
 }
-.card-back-text-right{
+.card-back-text-right {
   position: absolute;
   top: -520px;
   padding-left: 40px;
- 
 }
-.text__card1_first-right{
+.text__card1_first-right {
   font-family: bebasneue;
   font-size: 67px;
   color: #7bcadb;
 }
 
-.text__card1_second-right{
+.text__card1_second-right {
   font-family: dexMedium;
   font-size: 40px;
   color: #7bcadb;
 }
-.text__card1_third-right{
+.text__card1_third-right {
   font-family: dexRegular;
   font-size: 30px;
   color: #7c6e66;
   line-height: 1.1;
   padding-top: 20px;
-
 }
-.containerForMiddleImagesTypeB{
+.containerForMiddleImagesTypeB {
   max-width: 1920px;
   display: flex;
   position: relative;
 }
-.imageContainer-b-left{
+.imageContainer-b-left {
   margin-left: 110px;
   margin-top: 208px;
 }
-.imageContainer-b-right{
-margin-left: 120px;
-padding-top: 340px;
+.imageContainer-b-right {
+  margin-left: 120px;
+  padding-top: 340px;
 }
-.b-group-text{
+.b-group-text {
   font-family: bebasneue;
 }
-.third-line-image-container{
+.third-line-image-container {
   display: flex;
   max-width: 1920px;
   position: relative;
   margin-left: 110px;
   margin-top: 208px;
 }
-.last-image-container{
+.last-image-container {
   display: flex;
   position: relative;
   max-width: 500px;
@@ -750,6 +743,6 @@ padding-top: 340px;
   font-size: 67px;
   color: rgb(255, 255, 255);
 }
-.fachrichtung{
+.fachrichtung {
   transform: translateY(4px);
 }

@@ -33,7 +33,6 @@ const kontaktButton = document.querySelector("#kontakt-link");
 const etageButton = document.querySelector("#etageLink");
 const impressumButton = document.querySelector("#impressum");
 
-
 const gotToSection = () => {
   fachrichtungTeil.scrollIntoView({ behavior: "smooth" });
 };
@@ -49,7 +48,6 @@ const gotToEtagePlan = () => {
 const gotToImpressum = () => {
   impressum.scrollIntoView({ behavior: "smooth" });
 };
-
 
 fachRichtungButton.addEventListener("click", gotToSection);
 kontaktButton.addEventListener("click", gotToKontakt);

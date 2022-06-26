@@ -730,3 +730,15 @@ padding-top: 340px;
 .b-group-text{
   font-family: bebasneue;
 }
+.third-line-image-container{
+  display: flex;
+  max-width: 1920px;
+  position: relative;
+  margin-left: 110px;
+  margin-top: 208px;
+}
+.last-image-container{
+  display: flex;
+  position: relative;
+  max-width: 500px;
+}

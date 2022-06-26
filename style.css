@@ -746,3 +746,11 @@ body
 .fachrichtung {
   transform: translateY(4px);
 }
+.imageText {
+  position: relative;
+  top: -142px;
+  left: 42px;
+  font-family: bebasneue;
+  font-size: 67px;
+  color: rgb(255, 255, 255);
+}
